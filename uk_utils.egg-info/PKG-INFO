@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: uk-utils
+Version: 0.1.1
+Summary: A series of utility functions for my courses
+Home-page: UNKNOWN
+Author: Ulrich Klauck
+Author-email: ulrich.klauck@hs-aalen.de
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: machine learning,image processing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
