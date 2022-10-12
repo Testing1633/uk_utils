@@ -1,6 +1,6 @@
 from os.path import sep, join
 from os import listdir
-#from .imfiles import is_image_file
+from .imfiles import is_image_file
 
 def create_dropdown_list(dropdown):
     '''
@@ -35,7 +35,6 @@ def create_dropdown_image_list(dir):
         file_list.append((f, join(dir, f)))
 
     return file_list
-
 
 
 def image_files_from_dir(dir, sort=True):

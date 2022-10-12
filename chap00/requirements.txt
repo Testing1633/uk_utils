@@ -1,0 +1,17 @@
+tensorflow
+tensorflow_datasets
+pandas
+seaborn
+matplotlib
+plotly
+scikit-learn
+statsmodels
+IPython
+eli5
+explainerdashboard
+pandas_profiling
+opencv-python
+numpy
+scipy
+jupyter
+notebook

@@ -140,9 +140,9 @@ def create_sequence(ts, n_inp=1, n_outp=1, method='timesteps'):
     X, Y = list(), list()
     ts = np.asarray(ts)
 
-    N = ts.shape[0]-n_outp-n_inp
+    N = ts.shape[0] - n_outp - n_inp + 1
 
-    for i in range(ts.shape[0]-(n_inp)-(n_outp)):
+    for i in range(N):
         X.append(ts[i:i+n_inp])
         Y.append(ts[i+n_inp:i+n_inp+n_outp])
 
